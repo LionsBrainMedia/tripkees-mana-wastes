@@ -1,0 +1,92 @@
+{
+  "id": "tripkees-mana-wastes",
+  "title": "Tripkees of the Mana Wastes",
+  "description": "Foundry support for Tripkees of the Mana Wastes, by Lion's Brain Media.",
+  "version": "2.0",
+  "authors": [
+    {"name": "W. Brian Lane" 
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "6"
+      }
+    }]
+  },
+  "packs": [
+    {
+      "label": "Tripkees of the Mana Wastes Heritages",
+      "type": "Item",
+      "name": "tripkees-mana-wastes-heritages",
+      "path": "./packs/tripkees-mana-wastes-heritages.db",
+      "system": "pf2e",
+      "package": "tripkees-mana-wastes",
+      "private": false
+    },
+    {
+      "label": "Tripkees of the Mana Wastes Ancestry Feats",
+      "type": "Item",
+      "name": "tripkees-mana-wastes-ancestry-feats",
+      "path": "./packs/tripkees-mana-wastes-ancestry-feats.db",
+      "system": "pf2e",
+      "package": "tripkees-mana-wastes",
+      "private": false
+    },
+    {
+      "label": "Tripkees of the Mana Wastes Mana Keeper Archetype",
+      "type": "Item",
+      "name": "tripkees-mana-wastes-mana-keeper-archetype",
+      "path": "./packs/tripkees-mana-wastes-mana-keeper-archetype.db",
+      "system": "pf2e",
+      "package": "tripkees-mana-wastes",
+      "private": false
+    },
+    {
+      "label": "Tripkees of the Mana Wastes Spellcatcher Archetype",
+      "type": "Item",
+      "name": "tripkees-mana-wastes-spellcatcher-archetype",
+      "path": "./packs/tripkees-mana-wastes-spellcatcher-archetype.db",
+      "system": "pf2e",
+      "package": "tripkees-mana-wastes",
+      "private": false
+    },
+    {
+      "label": "Tripkees of the Mana Wastes Fiend-Keeper Archetype",
+      "type": "Item",
+      "name": "tripkees-mana-wastes-fiend-keeper-archetype",
+      "path": "./packs/tripkees-mana-wastes-fiend-keeper-archetype.db",
+      "system": "pf2e",
+      "package": "tripkees-mana-wastes",
+      "private": false
+    },
+    {
+      "label": "Tripkees of the Mana Wastes Westwatcher of Alungur Archetype",
+      "type": "Item",
+      "name": "tripkees-mana-wastes-westatcher-of-alungur-archetype",
+      "path": "./packs/tripkees-mana-wastes-westatcher-of-alungur-archetype.db",
+      "system": "pf2e",
+      "package": "tripkees-mana-wastes",
+      "private": false
+    },
+    {
+      "label": "Tripkees of the Mana Wastes Backgrounds",
+      "type": "Item",
+      "name": "tripkees-mana-wastes-backgrounds",
+      "path": "./packs/tripkees-mana-wastes-backgrounds.db",
+      "system": "pf2e",
+      "package": "tripkees-mana-wastes",
+      "private": false
+    }
+],
+  "url": "https://github.com/LionsBrainMedia/tripkees-mana-wastes",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/tripkees-mana-wastes/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/tripkees-mana-wastes/archive/refs/heads/main.zip"
+}
